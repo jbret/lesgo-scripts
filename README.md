@@ -1,3 +1,3 @@
 # lesgo-scripts
 
-Launch scripts for lesgo.
+Simple scripts used in conjunction with lesgo.
