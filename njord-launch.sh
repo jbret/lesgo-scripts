@@ -14,6 +14,8 @@ nproc=`grep "nproc" $conf | awk '{print $3}'`
 printf "Found nproc = $nproc in $conf \n"
 echo $nproc
 
+caseName="mycase"
+rm $caseName*
 myid=$RANDOM
 range=1000
 let "myid %= $range"
